@@ -353,7 +353,17 @@ color:#b7ff5d;
     font-size:50px;
 
 }
+nav{
+        flex-direction: row;      /* Keep links in one row */
+        justify-content: center;
+        flex-wrap: wrap;          /* Move to next line if needed */
+        gap: 15px;
+    }
 
+    nav a{
+        font-size: 15px;
+        padding: 8px 12px;
+    }
 
 }
 .foot{
