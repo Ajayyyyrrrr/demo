@@ -651,18 +651,9 @@ nav a:hover{
 
 }
 
-nav{
-        flex-direction: row;      /* Keep links in one row */
-        justify-content: center;
-        flex-wrap: wrap;          /* Move to next line if needed */
-        gap: 15px;
-    }
 
-    nav a{
-        font-size: 15px;
-        padding: 8px 12px;
-    }
-}
+  
+
 
 .contact-info h2{
 
@@ -673,4 +664,40 @@ nav{
 
 }
 
-@media (max-width:768px){img{max-width:100%;height:auto}.container,.row{width:100%!important;padding:20px!important;display:flex!important}h1{font-size:2rem!important}h2{font-size:1.6rem!important}input,textarea,button{width:100%!important}}
+@media (max-width:768px){
+
+    img{
+        max-width:100%;
+        height:auto;
+    }
+
+    .container,
+    .row{
+        width:100%;
+        padding:20px;
+    }
+
+    h1{
+        font-size:2rem;
+    }
+
+    h2{
+        font-size:1.6rem;
+    }
+
+    input,
+    textarea,
+    button{
+        width:100%;
+    }
+    nav{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+  nav a{
+        font-size: 15px;
+        padding: 8px 12px;
+    }
+}
