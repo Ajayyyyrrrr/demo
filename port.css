@@ -1,0 +1,431 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Montserrat',sans-serif;
+}
+
+body{
+background:#0d0d0d;
+color:#fff;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:25px 8%;
+
+}
+
+.logo{
+font-size:20px;
+font-weight:700;
+letter-spacing:2px;
+}
+
+nav a{
+text-decoration:none;
+color:white;
+margin-left:30px;
+font-size:15px;
+}
+
+nav a:hover{
+color:#b7ff5d;
+}
+
+.hero{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:80px 8%;
+gap:60px;
+flex-wrap:wrap;
+border-bottom:1px solid #333;
+
+}
+
+.hero-text{
+flex:1;
+height: 544px;
+width: 360px;
+margin-top: 66px;
+}
+
+.hero-text h1{
+font-size:58px;
+font-weight:800;
+line-height:1.1;
+}
+
+.hero-text p{
+margin:25px 0;
+color:#bbb;
+line-height:1.7;
+max: width 500px;
+}
+
+.buttons{
+display:flex;
+align-items:center;
+gap:20px;
+}
+
+button{
+background:#c8ff58;
+color:#000;
+padding:14px 30px;
+border:none;
+border-radius:30px;
+font-weight:700;
+cursor:pointer;
+
+}
+
+button:hover{
+background:#a7e63a;
+}
+
+.socials i{
+margin-right:15px;
+font-size:20px;
+cursor:pointer;
+color:#c8ff58;
+}
+
+.hero-image img{
+width: 600px;
+height: 700px;
+border-radius:10px;
+}
+
+.projects{
+padding:70px 8%;
+width: 100%;
+border-bottom: 1px solid#333;
+}
+
+.projects h2{
+font-size:40px;
+margin-bottom:14px;
+}
+
+.project{
+display:flex;
+align-items:center;
+gap:40px;
+margin-bottom:70px;
+flex-wrap:wrap;
+width: 1224px;
+height: 600px;
+
+}
+
+.project-card {
+flex: 1;
+    width: 600px;
+    height: 600px;
+    background: #1b1b1b;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.project-card img {
+   flex: 1;
+    width: 500px;
+    display: block;
+    border-radius: 10px;
+    height:371px;
+    margin-top: 66px;
+    margin-left: 32px;
+}
+
+.tag {
+    display: inline-block;
+    background: #111;
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+.projects p{
+color:#bbb;
+line-height:1.5;
+margin-bottom:65px;
+width: 126%;
+}
+
+.project-info{
+flex: 1;
+}
+
+.project-info h3{
+font-size:28px;
+margin-bottom:14px;
+margin-top: -15px;
+margin-left: 20px;
+}
+
+.project-info p{
+color:#bbb;
+line-height:1.8;
+margin-bottom:30px;
+margin-top: 20px;
+margin-left: 20px;
+}
+
+.project-info a{
+color:#c8ff58;
+
+font-weight:500;
+ margin-left: 20px;
+    margin-top: 20px;
+}
+
+.about{
+    display: flex;
+padding:70px 8%;
+width: 100%;
+height: 560px;
+border-bottom: 1px solid#333;
+}
+
+.about h2{
+    flex: 1;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size:89px;
+font-weight: 600;
+line-height: 173%;
+letter-spacing: 0%;
+margin-bottom:20px;
+width: 307px;
+height: 91px;
+margin-left:8px;
+}
+.me{
+    flex: 1;
+max-width:100%;
+color:#bbb;
+line-height:1.9;
+margin-left: -133px;
+margin-top: 40px;
+
+}
+
+.big {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 28px;
+  font-weight: 740;
+  line-height: 1.4;
+  color: #FFFFFF;
+  margin-bottom: 18px;
+}
+
+/* Styling for the smaller body paragraph */
+.small {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #C0C0C0; /* Muted white/grey color */
+  margin-bottom: 32px;
+  width: 114%;
+}
+
+.contact{
+display:flex;
+justify-content:space-between;
+align-items: flex-start;
+padding:80px 10%;
+gap:100px;
+flex-wrap:wrap;
+height: 600px;
+background-color: #0d0d0d;
+color: #fff;
+}
+
+.contact-info{
+flex:1;
+}
+
+.contact-info h2{
+font-size:72px;
+font-weight: 800;
+line-height: 1;
+margin-bottom:35px;
+}
+
+.contact-info p{
+    font-size: 20px;   
+margin-bottom:25px;
+color:#bbb;
+}
+.contact-info p span{
+    color: #d7f06b;
+    border-bottom: 2px solid #d7f06b;
+}
+
+form{
+flex:1;
+display:flex;
+flex-direction:column;
+gap:20px;
+}
+ form #ddd{
+    width: 114px;
+    height: 51px;
+ }                                                                                                                                    
+
+input,
+textarea{
+padding:15px;
+background:#181818;
+border:none;
+color:white;
+}
+
+textarea{
+resize:none;
+}
+
+footer{
+padding:30px;
+text-align:center;
+border-top:1px solid #222;
+color:#888;
+}
+
+@media(max-width:900px){
+
+.hero{
+flex-direction:column;
+text-align:center;
+}
+
+.project{
+flex-direction:column;
+}
+
+.hero-image img,
+.project img{
+width:100%;
+max-width:420px;
+}
+
+.buttons{
+justify-content:center;
+}
+
+
+.contact{
+flex-direction:column;
+}
+
+}
+.details{
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 18px;
+}
+.details p{
+    margin-left: 1px;
+}
+.row{
+    display:flex;
+    justify-content:space-between;
+    padding:12px 0;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.details hr{
+    border:0;
+    border-top:1px solid #333;
+}
+.details a{
+    margin-top: 20px;
+}
+
+
+
+
+
+
+.contact-info .socials{
+    display: flex;
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.contact-info .socials i{
+    font-size: 35px;
+    color: #d7f06b;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.contact-info .socials i:hover{
+    transform: scale(1.15);
+}
+
+/* Right Side */
+
+.contact form{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact input,
+.contact textarea{
+    width: 100%;
+    background: #1a1a1a;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    padding: 18px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.contact input::placeholder,
+.contact textarea::placeholder{
+    color: #8d8d8d;
+}
+
+.contact textarea{
+    resize: none;
+}
+
+/* Submit Button */
+
+#ddd{
+ form button{
+
+    width:140px;
+
+    background:#d8ff4b;
+
+    color:#000;
+
+    border:none;
+
+    padding:14px;
+
+    border-radius:30px;
+
+    cursor:pointer;
+
+    font-weight:600;
+
+}
+}
+
+#ddd:hover{
+    background: #c5e45d;
+    transform: translateY(-3px);
+}

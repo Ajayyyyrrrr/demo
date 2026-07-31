@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">AJAY RAJU RAJ C P</div>
+
+    <nav>
+        
+        <a href="port.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+        <div class="ima">
+    <img src="CONTACT.jpeg" alt="IMA">
+</div>
+    <div class="container">
+
+   <div class="contact-info">
+
+<h2>LET'S CONNECT</h2>
+
+<p>Email: ajayrajurajcp@email.com</p>
+
+<div class="socials">
+<i class="fab fa-linkedin"></i>
+<i class="fab fa-github"></i>
+<i class="fab fa-twitter"></i>
+</div>
+
+</div>
+<div class="fle">
+
+<form id="contact-form">
+
+<input type="text" name="name" placeholder="Name" required>
+
+<input type="email" name="user_email" placeholder="Email" required>
+
+<textarea rows="6" name="message" placeholder="Message" required></textarea>
+<div class="ddd">
+<button id="ddd" type="submit">Submit</button>
+</div>
+</form>
+
+</section>
+
+</div>
+</div>
+<div class="foot">
+© 2026 AJAY RAJU RAJ C P Portfolio
+
+</div>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script>
+(function () {
+    emailjs.init({
+        publicKey: "rCNNBhgJ_lfCuMChX"
+    });
+})();
+</script> 
+</body>
+<script src="contact.js"></script>
+</html>
