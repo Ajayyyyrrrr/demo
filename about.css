@@ -661,3 +661,5 @@ nav a:hover{
 
 
 }
+
+@media (max-width:768px){img{max-width:100%;height:auto}.container,.row{width:100%!important;padding:20px!important;display:block!important}h1{font-size:2rem!important}h2{font-size:1.6rem!important}input,textarea,button{width:100%!important}}

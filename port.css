@@ -63,7 +63,7 @@ line-height:1.1;
 margin:25px 0;
 color:#bbb;
 line-height:1.7;
-max: width 500px;
+max-width: 500px;
 }
 
 .buttons{
@@ -403,8 +403,7 @@ flex-direction:column;
 
 /* Submit Button */
 
-#ddd{
- form button{
+#ddd {
 
     width:140px;
 
@@ -428,4 +427,15 @@ flex-direction:column;
 #ddd:hover{
     background: #c5e45d;
     transform: translateY(-3px);
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px){
+  .container,.row,.hero,.about,.contact,.portfolio{width:100%!important;display:block!important;padding:20px!important;}
+  img{max-width:100%;height:auto;}
+  .nav-links{flex-direction:column;gap:12px;}
+  h1{font-size:2rem!important;}
+  h2{font-size:1.6rem!important;}
+  p{font-size:1rem;}
+  input,textarea,button{width:100%!important;}
 }
