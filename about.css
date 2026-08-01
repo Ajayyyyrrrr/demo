@@ -678,13 +678,13 @@ nav a:hover{
   .logo {
     font-size: 16px;
     font-weight: 700;
-    letter-spacing: 1px;
+    letter-spacing: 1.8px;
   }
 
   nav {
     display: flex;
     flex-direction: row;
-    gap: 15px;
+    gap: 22px;
   }
 
   nav a {
