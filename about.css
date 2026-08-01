@@ -664,53 +664,139 @@ nav a:hover{
 
 }
 
-@media (max-width:768px){
+@media (max-width: 748px) {
 
-    img{
-        max-width:100%;
-        height:auto;
-    }
+  /* Header */
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+  }
 
-    .container,
-    .row{
-        width:100%;
-        padding:20px;
-    }
-
-    h1{
-        font-size:2rem;
-    }
-
-    h2{
-        font-size:1.6rem;
-    }
-    .logo{
-        font-size: 15px;
+  .logo {
+    font-size: 16px;
     font-weight: 700;
     letter-spacing: 1px;
-}
-    .header {
-    display: flex;
-    justify-content: space-between;
-    padding: -21px 44%;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: baseline;
-}
+  }
 
-    input,
-    textarea,
-    button{
-        width:100%;
-    }
-    nav{
-    display:flex;
-    justify-content:space-evenly;
-    gap:15px;
-    flex-wrap:nowrap;
-}
-  nav a{
-        font-size: 15px;
-        padding: -8px 12px;
-    }
+  nav {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+  }
+
+  nav a {
+    margin: 0;
+    font-size: 14px;
+  }
+
+  /* Hero */
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 50px 5%;
+    gap: 40px;
+  }
+
+  .hero-text {
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+
+  .hero-text h1 {
+    font-size: 42px;
+  }
+
+  .hero-text p,
+  .small-text {
+    max-width: 100%;
+  }
+
+  .buttons {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .hero-image img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+
+  /* Common Sections */
+  .section {
+    flex-direction: column;
+    padding: 50px 5%;
+    gap: 30px;
+  }
+
+  .left,
+  .right {
+    width: 100%;
+  }
+
+  .left h2 {
+    font-size: 42px;
+  }
+
+  .right p {
+    font-size: 16px;
+  }
+
+  /* Skills */
+  .skills {
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .skills span {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+
+  /* Experience */
+  .job h3 {
+    font-size: 24px;
+  }
+
+  .job p {
+    font-size: 16px;
+  }
+
+  /* Contact */
+  .contact {
+    flex-direction: column;
+    height: auto;
+    gap: 40px;
+    padding: 50px 5%;
+  }
+
+  .contact-info h2 {
+    font-size: 50px;
+  }
+
+  .contact-info p {
+    font-size: 18px;
+  }
+
+  .contact form {
+    width: 100%;
+  }
+
+  .contact input,
+  .contact textarea {
+    width: 100%;
+  }
+
+  #ddd {
+    width: 140px;
+  }
+
+  /* Footer */
+  .footer {
+    padding: 20px;
+  }
 }
