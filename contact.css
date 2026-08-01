@@ -10,7 +10,7 @@
     margin-left: 50px;
     margin-top: 300px;
     display:flex;
-    position: absolute;
+    position: static;
     justify-content:center;
     align-items:center;
   
@@ -336,40 +336,113 @@ color:#b7ff5d;
 /* RESPONSIVE */
 
 
-@media(max-width:900px){
+@media (max-width: 748px) {
 
+  /* Header */
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+  }
 
-.container{
+  .logo {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
 
-    flex-direction:column;
+  nav {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+  }
 
-    gap:50px;
+  nav a {
+    margin: 0;
+    font-size: 14px;
+  }
 
+  /* Main Container */
+  .container {
+    flex-direction: column;
+    gap: 50px;
+    padding: 50px 5%;
+    min-height: auto;
+  }
+
+  /* Image */
+  .ima {
+    position: static;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .ima img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: 0;
+  }
+
+  /* Contact Info */
+  .contact-info {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+  }
+
+  .contact-info h2 {
+    font-size: 50px;
+    margin: 0 0 25px;
+  }
+
+  .contact-info p {
+    font-size: 18px;
+    margin: 0 0 20px;
+  }
+
+  /* Social Icons */
+  .socials {
+    justify-content: center;
+    margin: 30px 0 0;
+    gap: 20px;
+  }
+
+  .socials i {
+    font-size: 30px;
+  }
+
+  /* Form */
+  .fle {
+    width: 100%;
+  }
+
+  #contact-form {
+    margin: 0;
+    width: 100%;
+  }
+
+  #contact-form input,
+  #contact-form textarea {
+    width: 100%;
+    margin-bottom: 25px;
+    padding: 18px;
+    font-size: 16px;
+  }
+
+  #contact-form textarea {
+    height: 180px;
+  }
+
+  /* Button */
+  .ddd {
+    margin-top: 10px;
+  }
+
+  #ddd {
+    width: 140px;
+  }
 }
-
-
-
-.contact-info h2{
-
-    font-size:50px;
-
-}
-nav{
-        flex-direction: row;      /* Keep links in one row */
-        justify-content: center;
-        flex-wrap: wrap;          /* Move to next line if needed */
-        gap: 15px;
-    }
-
-    nav a{
-        font-size: 15px;
-        padding: 8px 12px;
-    }
-
-}
-.foot{
-    margin-bottom: 2px;
-    margin-left: 2px;
-}
-
-@media (max-width:768px){img{max-width:100%;height:auto}.container,.row{width:100%!important;padding:20px!important;display:block!important}h1{font-size:2rem!important}h2{font-size:1.6rem!important}input,textarea,button{width:100%!important}}
