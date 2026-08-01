@@ -434,7 +434,6 @@ flex-direction:column;
 =========================== */
 @media (max-width: 748px) {
 
- @media (max-width: 748px) {
 
   header {
     display: flex;
@@ -453,6 +452,12 @@ flex-direction:column;
   nav a {
     margin: 0;
   }
+
+}
+.log{
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
 
 }
 
