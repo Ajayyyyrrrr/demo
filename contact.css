@@ -21,13 +21,13 @@
 }
 
 .ima img{
-    width:671px;
-    height:220px;
+    width:662px;
+    height:197px;
     object-fit:cover;
     border-radius:20px;
     margin:0;
-      margin-left: 46px;
-    margin-top: -219px;
+      margin-left: 110px;
+    margin-top: -243px;
 }
 body{
 
@@ -164,6 +164,7 @@ color:#b7ff5d;
     gap:25px;
 
     margin-top:40px;
+    margin-left: 4px;
 
 }
 

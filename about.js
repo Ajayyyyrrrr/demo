@@ -27,3 +27,7 @@ form.addEventListener("submit", function (e) {
     });
 
 });
+const my = document.getElementById("resume");
+my.addEventListener("click",()=>{
+    alert("RESUME DOWNLOADED");
+});
